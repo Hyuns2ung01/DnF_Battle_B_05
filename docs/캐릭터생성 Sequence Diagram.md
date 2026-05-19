@@ -10,7 +10,7 @@ sequenceDiagram
     activate UI
     UI->>전투: 캐릭터생성(플레이어id, 캐릭터명, 직업, 레벨)
     activate 전투
-    
+
     전투->>플체크: 플레이어체크(플레이어id)
     activate 플체크
     플체크-->>전투: 인증 결과 반환 (true / false)
@@ -25,6 +25,7 @@ sequenceDiagram
         전투-->>UI: return -1
         UI-->>플레이어: 에러 메시지 팝업 출력 (Response 완료)
     end
-    
+
     deactivate 전투
     deactivate UI
+```
