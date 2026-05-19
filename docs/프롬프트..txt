@@ -69,3 +69,14 @@ GitHub에 Repository 생성하여 산출물 관리 ( Repository명 : "DnF_Battle
 순차도(Sequence Diagram)를 기반으로 구현하시오. ( 캐릭터생성, 몬스터공격 )
 
 실행은 JSP 로 실행할 것. (처리 결과가 출력되도록 할 것.)
+
+==========================
+
+# UseCase Diagram 프롬프트
+
+---
+
+위와 같은 조건으로 UseCase Diagram Mermaid 코드 생성해줘.
+(graphLR, 스테레오 타입 &lt &gt 사용, 가시성 확인)
+
+===========================
